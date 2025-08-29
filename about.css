@@ -1,0 +1,100 @@
+
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: greenyellow;
+  color: hsl(180, 4%, 9%);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #007bff;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* Professional Summary */
+main p {
+  font-size: 16px;
+  max-width: 750px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Personal Details */
+.list-group-item {
+  font-size: 16px;
+  background: #fff;
+  border: none;
+  margin-bottom: 8px;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+  padding: 12px 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.list-group-item strong {
+  color: #007bff;
+}
+
+/* Preferred Skills Badges */
+.badge {
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-weight: 500;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.badge:hover {
+  transform: scale(1.1);
+  cursor: default;
+}
+
+/* Footer */
+footer {
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer i {
+  margin-right: 6px;
+  color: #007bff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #007bff;
+}

@@ -1,0 +1,72 @@
+/* General Layout */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: greenyellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #007bff;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Card Style for Others */
+.education-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.education-item:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Headings inside cards */
+.education-item h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.education-item p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

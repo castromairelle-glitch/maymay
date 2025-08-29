@@ -1,0 +1,90 @@
+/* General Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main content should take available space */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* center horizontally */
+  justify-content: center; /* center vertically */
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-img {
+  width: 150px;        /* Adjust the size as needed */
+  height: 150px;       /* Keep same as width for perfect circle */
+  border-radius: 50%;  /* Makes it round */
+  object-fit: cover;   /* Ensures image doesn’t stretch */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  border: 3px solid #fff; /* optional clean border */
+}
+
+
+/* Section Titles */
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn-custom {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+  margin-bottom: 10px; /* adds vertical space between stacked buttons */
+}
+
+
+.btn-custom:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(135deg, #1e1e1e, #333);
+  color: #fff;
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;          /* push footer to bottom */
+  width: 100%;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px; /* spacing between items */
+}
+
+footer i {
+  margin-right: 6px;
+  color: #ff9800;
+}
+
+footer a {
+  color: #f4f4f4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ff9800;
+}
